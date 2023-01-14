@@ -1,0 +1,11 @@
+/* Using 'margin: 0 auto:' with volter font causes it be blurry */
+@font-face {
+  font-family: 'Volter';
+  src: local('Volter'), url(../fonts/Volter.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Volter-Bold';
+  src: local('Volter-Bold'), url(../fonts/Volter-Bold.ttf) format('truetype');
+  font-size: 9px;
+}
